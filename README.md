@@ -1,14 +1,12 @@
-### Always use the **[latest release](https://github.com/codepotent/timeless-text/releases/latest)** on production sites! 
-
 You've probably seen the phrases. These are common phrases you can find on a great number of websites, often on an "About Us" or bio page. How many of those sites will remember to update those numbers each year? With the Timeless Text plugin, those phrases will be automatically updated to ensure they never fall out of sync.
 
 <blockquote>
   I have 20 years of PHP development experience.
 
-  We have 35 years of combined experience!
+We have 35 years of combined experience!
 
 
-  It all began 2 years ago when...
+It all began 2 years ago when...
 </blockquote>
 
 ---
@@ -21,13 +19,13 @@ To process a single date into the number of elapsed years, use the following for
 
 **Arguments**
 * **y**
-_Required_ The year value of the date to calculate.
+  _Required_ The year value of the date to calculate.
 * **m**
-_Optional_ The month value of the date to calculate. Defaults to 1.
+  _Optional_ The month value of the date to calculate. Defaults to 1.
 * **d**
-_Optional_ The day value of the date to calculate. Defaults to 1.
+  _Optional_ The day value of the date to calculate. Defaults to 1.
 * **text**
-_Optional_ Set to false to suppress the text portion and only return the integer value. Defaults to true.
+  _Optional_ Set to false to suppress the text portion and only return the integer value. Defaults to true.
 
 **Examples**
 
@@ -47,9 +45,9 @@ To process a series of dates into a cumulative number of elapsed years, use the 
 
 **Arguments**
 * **combined**
-_Required_ The date values to calculate for cumulative years, comma-separated.
+  _Required_ The date values to calculate for cumulative years, comma-separated.
 * **text**
-_Optional_ Set to false to suppress the text portion and only return the integer value. Defaults to true.
+  _Optional_ Set to false to suppress the text portion and only return the integer value. Defaults to true.
 
 **Examples**
 
@@ -57,7 +55,3 @@ _Optional_ Set to false to suppress the text portion and only return the integer
 
 
 **Note**: You must provide 2 or more dates. separated by commas. Each date must include the year, month, and day. You can use hyphens or forward-slashes between those numbers.
-
----
-
-[![](https://static.codepotent.com/images/logotype/code-potent-logotype-wordmark-252x36.png)](https://codepotent.com/classicpress/plugins/)
