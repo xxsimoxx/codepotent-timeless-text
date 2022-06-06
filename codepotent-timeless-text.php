@@ -108,8 +108,8 @@ class TimelessText {
 		// Otherwise, return the translated string.
 		return sprintf(
 			_n(
-				esc_html__('%d year', 'codepotent-timeless-text'),
-				esc_html__('%d years', 'codepotent-timeless-text'),
+				'%d year',
+				'%d years',
 				$n,
 				'codepotent-timeless-text'
 			),
@@ -135,7 +135,7 @@ class TimelessText {
 	public function calculate_years($atts) {
 
 		// Year not present? Bail.
-		if (empty($atts['y']) || strlen($atts['y']) !== 4 || $atts['y'] > date('Y')) {
+		if (empty($atts['y']) || strlen($atts['y']) !== 4 || $atts['y'] > gmdate('Y')) {
 			return esc_html__('The year must be a 4-digit number and may not be greater than the current year.', 'codepotent-timeless-text');
 		}
 
