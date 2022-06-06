@@ -58,11 +58,8 @@ class TimelessText {
 	 */
 	public function init() {
 
-		// Load constants.
-		require_once plugin_dir_path(__FILE__).'includes/constants.php';
-
 		// Load update client.
-		require_once(PATH_CLASSES.'/UpdateClient.class.php');
+		require_once('classes/UpdateClient.class.php');
 
 		// Process shortcodes.
 		add_shortcode('timeless-text', [$this, 'process_shortcode']);
