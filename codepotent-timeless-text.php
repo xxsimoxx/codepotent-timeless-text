@@ -4,7 +4,7 @@
  * -----------------------------------------------------------------------------
  * Plugin Name: Timeless Text
  * Description: For phrases like "I have worked for n years in web dev" or "We have n years of combined experience" – this plugin keeps the numbers updated each year automatically.
- * Version: 2.1.0
+ * Version: 2.1.1
  * Author: Simone Fioravanti
  * Author URI: https://software.gieffeedizioni.it
  * Plugin URI: https://software.gieffeedizioni.it
