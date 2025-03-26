@@ -4,7 +4,7 @@
  * -----------------------------------------------------------------------------
  * Plugin Name: Timeless Text
  * Description: For phrases like "I have worked for n years in web dev" or "We have n years of combined experience" – this plugin keeps the numbers updated each year automatically.
- * Version: 2.1.3
+ * Version: 2.1.4
  * Requires PHP: 5.6
  * Requires CP: 1.0
  * Author: Simone Fioravanti
